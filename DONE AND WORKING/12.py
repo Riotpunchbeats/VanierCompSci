@@ -1,11 +1,10 @@
-
-def histogram( items ):
-    for n in items:
-        output = ''
-        times = n
-        while( times > 0 ):
-          output += '*'
-          times = times - 1
-        print(output)
-
-histogram([])
+inp = int(input("Please enter some numbers: ").split())
+def histogram(inputList):
+ 
+    for i in range(len(inputList)):
+        print (inputList[i]*'*')
+ 
+ 
+List = [inp]
+ 
+histogram(List)
