@@ -22,5 +22,4 @@ def sg_form(verb):
 sg_form(inp)
 
 print ("Your verb in third person singular form is:")
-print (sg_form(inp.lower())#Deals with capitalization in user input
-
+print (sg_form(inp.lower()))

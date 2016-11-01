@@ -11,7 +11,7 @@ def map_to_lengths_map(words): #MAP NO LONGER WORKS LIKE THIS IN PYTHON 3.X
 def map_to_lengths_lists(words): #same thing, this time using list comprehesion
     return [len(word) for word in words] #iterates over word list and returns len
 
-words = input("enter some words with a space: ").split()
+words = raw_input("enter some words with a space: ").split()
 
 print (map_to_lengths_for(words))
 print (map_to_lengths_map(words))
