@@ -4,6 +4,6 @@ def histogram(inputList):
         print (inputList[i]*'*')
  
  
-List = input("Please enter some numbers with spaces: ").split(",")
-print (List)
+List = raw_input("Please enter some numbers with spaces: ").split(",")
+List = [int(i) for i in List]
 histogram(List)
