@@ -1,6 +1,6 @@
 #Using higher order funtion reduce(), write a function max_in_list() that takes a list of numbers...
 
-ips = [int(x) for x in input("Please enter a list of numbers you'd like evaluated: ").split()] #Actual split function. Iterates over input and returns a list
+ips = [int(x) for x in input("Please enter a list of numbers you'd like evaluated, with spaces: ").split()] #Actual split function. Iterates over input and returns a list
 
 from functools import reduce #IMPORT HIGHER ORDER FUNCTION REDUCE
 
