@@ -1,9 +1,8 @@
 def histogram(inputList):
  
     for i in range(len(inputList)):
-        print (inputList[i]*'*')
+        print (inputList[i]*'*')#prints correct number of stars for each number
  
  
-List = raw_input("Please enter some numbers with spaces: ").split(",")
-List = [int(i) for i in List]
-histogram(List)
+ips = [int(x) for x in input("Please enter a list of numbers you'd like evaluated, with spaces: ").split()] #Split function that works
+histogram(ips)
